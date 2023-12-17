@@ -84,4 +84,39 @@
 #footer {
     background-color: #808080;
     text-align: center;
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+    }
 }
+    
+    .resume-container {
+        width: 80%;
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    
+    /* Optional: Add a download button */
+    .resume-download-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-top: 1px solid #ddd;
+        cursor: pointer;
+    }
+    
+    .resume-download-btn:hover {
+        background-color: #217dbb;
+    }

@@ -17,3 +17,6 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+function downloadResume() {
+    window.open('Files/Netra-Resume.pdf', '_blank');
+}
