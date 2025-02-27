@@ -187,31 +187,23 @@
     }
 }
     
-    .resume-container {
-        width: 80%;
-        max-width: 800px;
-        margin: 50px auto;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        overflow: hidden;
-    }
+#resume {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
 
-    
-    /* Optional: Add a download button */
-    .resume-download-btn {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-        background-color: #008000;
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        border-top: 1px solid #ddd;
-        cursor: pointer;
-    }
-    
-    .resume-download-btn:hover {
-        background-color: #217dbb;
-    }
+.resume-container {
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: rgb(255, 255, 255);
+}
+
+.resume-container embed {
+  border: 1px solid #ddd;
+}
+
+.resume-container .btn {
+  margin-top: 10px;
+}
