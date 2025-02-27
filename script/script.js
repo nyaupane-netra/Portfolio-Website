@@ -20,3 +20,17 @@ navLinks.forEach((l) => {
 function downloadResume() {
     window.open('Files/Netra-Resume.pdf', '_blank');
 }
+
+document.getElementById("contact-form").addEventListener("submit", function(event){
+    event.preventDefault(); // Prevent default form submission
+    const formData = new FormData(this);
+
+    fetch("/", {
+        method: "POST",
+        body: formData,
+    })
+    .then(() => {
+        window.location.href = "Success_Page.html"; // Redirect manually
+    })
+    .catch((error) => console.error("Error:", error));
+});
